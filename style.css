@@ -1,0 +1,15 @@
+.main{
+    margin-top: 5%;
+}
+
+.main textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    direction: rtl;
+
+    font-size: 20px;
+
+    font-family: 'Jameel Noori Nastaleeq Regular';
+}
