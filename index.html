@@ -6,17 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urdu Editor</title>
-    
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
 
-    <div class="main">
+    <div class="row">
 
-        <textarea name="urdu-text-editor" id="urdu-text-editor" cols="100" rows="10"></textarea>
+        <div class="col-md-8 row story-main">
 
+            <div class="col-md-12 story-title">
+                <input type="text" placeholder="کہانی کا عنوان" id="story-title">
+            </div>
+            <div class="col-md-12">
+
+                <textarea class="urdu-text-editor" id="urdu-text-editor" cols="100" rows="20"></textarea>
+            </div>
+
+        </div>
     </div>
 
     <script src="index.js"></script>

@@ -1,15 +1,55 @@
-.main{
-    margin-top: 5%;
+body {
+    background-color: #e5cbc8;
+    direction: rtl;
+    overflow: hidden;
 }
 
-.main textarea{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.main {
+}
 
-    direction: rtl;
-
+.urdu-text-editor {
     font-size: 20px;
+    font-family: "Jameel Noori Nastaleeq Regular";
+    border-color: #d2d1d1;
+    resize: none;
 
-    font-family: 'Jameel Noori Nastaleeq Regular';
+    padding-right: 15px;
+    padding-top: 15px;
+
+    caret-color: #ab7b9b;
+}
+
+
+.story-title input:focus {
+    outline: none;
+}
+
+.urdu-text-editor:focus{
+    outline: 1px solid #ab7b9b;
+}
+
+.story-title {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: "Jameel Noori Nastaleeq Regular";
+}
+
+.story-title input {
+    padding: 5px 10px;
+    width: 100%;
+
+    background-color: transparent;
+
+    border: none;
+    border-bottom: 1px solid #6a5a78;
+
+    font-size: 30px;
+
+    color: #56384c;
+
+    caret-color: #ab7b9b;
+}
+
+.story-main {
+    padding-right: 5%;
 }

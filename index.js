@@ -70,11 +70,22 @@ let map = {
 
 */
 
-let editor = document.getElementById("urdu-text-editor");
+let storyEditor = document.getElementById("urdu-text-editor");
+let storyTitle = document.getElementById("story-title");
 
-editor.addEventListener("input", function () {
+storyTitle.addEventListener("input", function () {
 
-    let editorText = editor.value;
+    urduEditor(storyTitle);
+});
+
+storyEditor.addEventListener("input", function () {
+
+    urduEditor(storyEditor);
+});
+
+function urduEditor(element){
+
+    let editorText = element.value;
     let newText = "";
 
     for (let i = 0; i < editorText.length; i++) {
@@ -87,5 +98,6 @@ editor.addEventListener("input", function () {
             newText += editorText[i];
     }
     
-    editor.value = newText;
-});
+    element.value = newText;
+
+}
