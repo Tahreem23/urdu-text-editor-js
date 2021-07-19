@@ -1,12 +1,24 @@
 body {
     background-color: #ffecea;
     direction: rtl;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .story-main {
     margin:auto;
 }
+
+.view-story{
+    
+    font-family: "Jameel Noori Nastaleeq Regular";
+
+    margin:auto;
+    margin-top: 5%;
+    min-height: 85vh;
+    font-size: 18px;
+    background: white;
+}
+
 
 .urdu-text-editor {
     font-size: 20px;
