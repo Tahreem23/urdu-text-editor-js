@@ -1,22 +1,25 @@
 body {
-    background-color: #e5cbc8;
+    background-color: #ffecea;
     direction: rtl;
     overflow: hidden;
 }
 
-.main {
+.story-main {
+    margin:auto;
 }
 
 .urdu-text-editor {
     font-size: 20px;
     font-family: "Jameel Noori Nastaleeq Regular";
-    border-color: #d2d1d1;
+    /* border-color: #ecd2d2; */
     resize: none;
 
     padding-right: 15px;
     padding-top: 15px;
 
     caret-color: #ab7b9b;
+
+    border: none;
 }
 
 
@@ -25,7 +28,9 @@ body {
 }
 
 .urdu-text-editor:focus{
-    outline: 1px solid #ab7b9b;
+    /* outline: 1px solid #ab7b9b; */
+    outline: none;
+    border: none;
 }
 
 .story-title {
@@ -51,5 +56,5 @@ body {
 }
 
 .story-main {
-    padding-right: 5%;
+    /* padding-right: 5%; */
 }
